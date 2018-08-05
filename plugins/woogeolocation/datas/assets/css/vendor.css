@@ -1,0 +1,391 @@
+input[type=range]::-webkit-slider-runnable-track {
+	height: 5px;
+	background: #ddd;
+	border: none;
+	border-radius: 3px;
+}
+
+input[type=range]::-ms-track {
+	height: 5px;
+	background: #ddd;
+	border: none;
+	border-radius: 3px;
+}
+
+input[type=range]::-moz-range-track {
+	height: 5px;
+	background: #ddd;
+	border: none;
+	border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	border: none;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	background: #555;
+	margin-top: -5px;
+	position: relative;
+}
+
+input[type=range]::-ms-thumb {
+	-webkit-appearance: none;
+	border: none;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	background: #555;
+	margin-top: -5px;
+	position: relative;
+}
+
+input[type=range]::-moz-range-thumb {
+	-webkit-appearance: none;
+	border: none;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	background: #555;
+	margin-top: -5px;
+	position: relative;
+}
+
+input[type=range]:focus {
+	outline: none;
+	&::-webkit-slider-thumb:after {
+	position: absolute;
+	top: -35px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #eee;
+	border-radius: 5px;
+	color: #555;
+	padding: 5px 10px;
+	border: 2px solid #555;
+}
+&::-ms-thumb:after {
+	position: absolute;
+	top: -35px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #eee;
+	border-radius: 5px;
+	color: #555;
+	padding: 5px 10px;
+	border: 2px solid #555;
+}
+&::-moz-range-thumb:after {
+	position: absolute;
+	top: -35px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #eee;
+	border-radius: 5px;
+	color: #555;
+	padding: 5px 10px;
+	border: 2px solid #555;
+}
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #ccc;
+}
+
+input[type=range]:focus::-ms-track {
+	background: #ccc;
+}
+
+input[type=range]:focus::-moz-range-track {
+	background: #ccc;
+}
+output {
+	position: absolute;
+	width: 45px;
+	height: 10px;
+	text-align: center;
+	color: #85c94f;
+	display: inline-block;
+	font: bold 15px/30px Arial;
+	bottom: 100%;
+}
+output:after {
+
+}
+#map {
+	width: 100%;
+	height: 400px;
+}
+.map_product_image{
+	height:120px;
+	width:260px;
+	display:inline-block;
+}
+.gm-style .gm-style-iw {
+	text-align:center;
+	color:#484c51;
+}
+.map_p ,.map_span {
+	color:#484c51;
+	font-size:15px;
+	font-weight:bold;
+}
+.map_address{
+	color:#484c51;
+	font-size:10px;
+	font-weight:bold;
+}
+.map_link {
+	border:0 none;
+	outline:none;
+}
+#search, #_address{
+	background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+output{
+	display: none;
+	clear: both;
+    height: auto;
+}
+input[type=range] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+  background: transparent; /* Otherwise white in Chrome */
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  /* Hides the slider so custom styles can be added */
+  background: transparent; 
+  border-color: transparent;
+  color: transparent;
+}
+#radious{
+	width: 100%;
+}
+/*PRODUCT SORTING*/
+ul.products{
+	padding-bottom: 30px;
+}
+ul.sort-list{
+	width: 100%;
+	height: auto;
+	clear: both!important;
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+	padding-bottom: 200px !important;
+}
+ul.sort-list li.product{
+	width: 100%!important;
+	clear: both;
+	height: auto!important;
+}
+ul.sort-list li.product a,
+ul.sort-list li.product span.item-bar{
+	float: left!important;
+	border: none;
+}
+ul.sort-list li.product a span.onsale{
+	top: 35px!important;
+}
+ul.sort-list li.product a h3{
+	position: relative;
+	top: -320px;
+	right: -330px;
+	width: 500px !important;
+	color: #000000!important;
+	background: #FFFFFF!important;
+}
+ul.sort-list li.product a{
+	width: 40%!important;
+}
+ul.sort-list li.product span.item-bar{
+	width: 60%!important;
+	margin: 0px;
+	margin-top: 250px;
+}
+ul.sort-list li.product span.item-bar span.price,
+ul.sort-list li.product span.item-bar span.item-button{
+	width: 100%;
+	clear: both;
+}
+ul.sort-list li.product span.item-bar span.item-button{
+	left: 12px;
+	position: relative;
+}
+ul.sort-grid{
+	width: 100%;
+	height: auto;
+}
+ul.sort-grid li.product{
+	width: 33%;
+	height: 280px;
+	float: left;
+}
+ul.sort-grid li.product a,
+ul.sort-grid li.product span.item-bar{
+	float: none;
+	border: none;
+}
+ul.sort-grid li.product a{
+	width: 100%;
+	clear: both;
+	text-align: left;
+}
+ul.sort-grid li.product span.item-bar{
+	width: 100%;
+	margin: 0px;
+	clear: both;
+	text-align: left;
+}
+div.div-datatable-pagenav{
+	width: 100%;
+	height: auto;
+	padding-left: 10px;
+	margin-top: -40px;
+	clear: both;
+	z-index: 9999;
+	position: relative;
+	margin-bottom: 60px;
+}
+div.div-datatable-pagenav div.page-item{
+   margin-right: 5px;
+   width: 30px;
+   height: 25px;
+   line-height: 25px;
+   text-align: center;
+   float: left;
+   cursor: pointer;
+   -webkit-box-shadow: 0px 0px 2px -1px #BF7130;
+	-moz-box-shadow:    0px 0px 2px -1px #BF7130;
+	box-shadow:         0px 0px 2px -1px #BF7130;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #666666;
+}
+div.div-datatable-pagenav div.page-item-none{
+   margin-right: 5px;
+   width: 30px;
+   height: 26px;
+   line-height: 26px;
+   text-align: center;
+   float: left;
+   cursor: pointer;
+   -webkit-box-shadow: 0px 0px 2px -1px #BF7130;
+	-moz-box-shadow:    0px 0px 2px -1px #BF7130;
+	box-shadow:         0px 0px 2px -1px #BF7130;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #666666;
+}
+div.div-datatable-pagenav div.page-active{
+	-webkit-box-shadow: 0px 0px 2px -1px #BF7130;
+	-moz-box-shadow:    0px 0px 2px -1px #BF7130;
+	box-shadow:         0px 0px 2px -1px #BF7130;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #ffb273;
+}
+
+div.div-datatable-pagenav  div.page-item-prev{
+	margin-right: 5px;
+    width: 30px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 2px -1px #BF7130;
+	-moz-box-shadow:    0px 0px 2px -1px #BF7130;
+	box-shadow:         0px 0px 2px -1px #BF7130;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #666666;
+	background: url(../images/prev.png) no-repeat center;
+}
+div.div-datatable-pagenav div.page-item-next{
+	margin-right: 5px;
+    width: 30px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 2px -1px #BF7130;
+	-moz-box-shadow:    0px 0px 2px -1px #BF7130;
+	box-shadow:         0px 0px 2px -1px #BF7130;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #666666;
+	background: url(../images/next.png) no-repeat center;
+}
+div.div-datatable-pagenav div.page-item-null{
+	margin-right: 5px;
+    width: 30px;
+    height: 26px;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+   -webkit-box-shadow: 0px 0px 2px -1px #BF7130;
+	-moz-box-shadow:    0px 0px 2px -1px #BF7130;
+	box-shadow:         0px 0px 2px -1px #BF7130;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #666666;
+}
+li.sort-btn{
+	float: right;
+	margin-top: -20px;
+}
+li.sort-btn button{
+	width: 60px;
+	background: #FFF;
+	border: 1px solid #CCC !important;
+	-webkit-border-radius: 3px 3px 3px 3px !important;
+	border-radius: 3px 3px 3px 3px !important;
+	-webkit-box-shadow: inset 0px 0px 0px 0px #CCCC !important;
+	box-shadow: inset 0px 0px 0px 0px #CCC !important;
+	margin-left: 5px;
+}
+li.sort-btn button.btn-sort-list{
+	background: url(../images/list.png) no-repeat center;
+	width: 26px;
+	height: 26px;
+	float: left;
+}
+li.sort-btn button.btn-sort-grid{
+	background: url(../images/grid.png) no-repeat center;
+	width: 26px;
+	height: 26px;
+	float: left;
+}

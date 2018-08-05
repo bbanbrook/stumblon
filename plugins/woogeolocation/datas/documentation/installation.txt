@@ -1,0 +1,14 @@
+How to use
+ 
+Use of this plugin is very easy, please, follow this steps:
+Make sure you have latest version for Wordpress and WooCommerce installed
+Enter into your Customer Area -> Services -> WooGeolocation Plugin, and in the top left -> Overview -> Downloads and download the plugin for your desired featured:
+WooGeolocation PRO (For PRO licensed Users)
+Install the plugin as any other wordpress plugin, and activate it.
+Now you have a new option into your WP admin Dashboard -> Settings -> WooGeolocation Setings
+Setup your desired configuration and  please, include your license key in setting (you have your license key in your customer area, services, from woogeolocation.com)
+Now you are ready!!!
+Store Search Form:
+[make_filter_html map="yes/no" map_height="500px" product_listing="yes/no" per_page="10" per_max_page_number="5" search_category="yes/no" category_id="" search_location="yes/no" search_location_autodetect_address="yes/no" search_location_default="Madrid, Spain" search_radius="yes/no" search_radius_min="0" search_radius_max="1000" search_radius_step="1" search_radius_default_radius="1" search_price="yes/no" search_price_step="1" search_price_min="0" search_price_max="2000" search_price_default_radius="1-1000" search_price_currency="$"]
+Dokan Shop Search Form:
+[get_seller_info_woogeolocation map="yes/no" map_height="500px" location_default="Madrid, Spain" location_autodetect_address="yes/no" dokan_shop_listing="yes/no" limit_dokan_shop_listing="20" per_page_product="10" per_page_store="3" per_max_page_number_product="5" per_max_page_number_store="5" filter_dokan_existing_product="yes/no" dokan_product_listing="yes/no" per_page="10" category="yes/no" subcategory="yes/no" ajax_filter="yes/no" filter_radius="yes/no" filter_radius_min="0" filter_radius_max="1000" filter_radius_step="1" filter_radius_default_radius="10" filter_price="yes" filter_price_step="1" filter_price_min="0" filter_price_max="2000" filter_price_default_radius="1-1000" filter_price_currency="$"]

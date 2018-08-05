@@ -1,0 +1,536 @@
+# Translation of Plugins - Woogeolocation - Stable (latest release) in English
+# This file is distributed under the same license as the Plugins - Woogeolocation - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-11 13:56-0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.7.1\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - Woogeolocation - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: nearbyproducts.php:125
+msgid "Booking only"
+msgstr "Booking only"
+
+#: core.php:39
+msgid "Woogeolocation settings"
+msgstr "Woogeolocation settings"
+
+#: core.php:122
+msgid "Woogeolocation Settings"
+msgstr "Woogeolocation Settings"
+
+#: core.php:127
+msgid "Default Product Filter Range "
+msgstr "Default Product Filter Range "
+
+#: core.php:134
+msgid "Default Range Step "
+msgstr "Default Range Step "
+
+#: core.php:141
+msgid "Default Range Min "
+msgstr "Default Range Min "
+
+#: core.php:148
+msgid "Default Range Max "
+msgstr "Default Range Max "
+
+#: core.php:155
+msgid "Default Distance Option"
+msgstr "Default Distance Option"
+
+#: core.php:166
+msgid "Default Product Filter Price "
+msgstr "Default Product Filter Price "
+
+#: core.php:173
+msgid "Default Price Step "
+msgstr "Default Price Step "
+
+#: core.php:180
+msgid "Default Price Min "
+msgstr "Default Price Min "
+
+#: core.php:187
+msgid "Default Price Max "
+msgstr "Default Price Max "
+
+#: core.php:194
+msgid "Enable Search Location"
+msgstr "Enable Search Location"
+
+#: core.php:197
+msgid "Disbable"
+msgstr "Disbable"
+
+#: core.php:198
+msgid "Enable"
+msgstr "Enable"
+
+#: core.php:203
+msgid "Enable Search Radius"
+msgstr "Enable Search Radius"
+
+#: core.php:206
+msgid "Disbable"
+msgstr "Disbable"
+
+#: core.php:207
+msgid "Enable"
+msgstr "Enable"
+
+#: core.php:212
+msgid "Enable Search Price"
+msgstr "Enable Search Price"
+
+#: core.php:215
+msgid "Disbable"
+msgstr "Disbable"
+
+#: core.php:216
+msgid "Enable"
+msgstr "Enable"
+
+#: core.php:221
+msgid "Enable Search Category"
+msgstr "Enable Search Category"
+
+#: core.php:224
+msgid "Disbable"
+msgstr "Disbable"
+
+#: core.php:225
+msgid "Enable"
+msgstr "Enable"
+
+#: core.php:230
+msgid "Google Api Key"
+msgstr "Google Api Key"
+
+#: core.php:237
+msgid "Google Api Key"
+msgstr "Google Api Key"
+
+#: core.php:239
+msgid "Enter your api key."
+msgstr "Enter your api key."
+
+#: core.php:248
+msgid "Default URL For Search Filter"
+msgstr "Default URL For Search Filter"
+
+#: core.php:255
+msgid "Filter URL"
+msgstr "Filter URL"
+
+#: core.php:265
+msgid "License"
+msgstr "License"
+
+#: core.php:272
+msgid "Enter your license here"
+msgstr "Enter your license here"
+
+#: core.php:274
+msgid "Enter your license key."
+msgstr "Enter your license key."
+
+#: core.php:283
+msgid "Set City"
+msgstr "Set City"
+
+#: core.php:297
+msgid "Enter your City here"
+msgstr "Enter your City here"
+
+#: core.php:299
+msgid "Enter the custom value here."
+msgstr "Enter the custom value here."
+
+#: core.php:307
+msgid "Enter your City here"
+msgstr "Enter your City here"
+
+#: core.php:309
+msgid "Enter the custom value here."
+msgstr "Enter the custom value here."
+
+#: core.php:318
+msgid "Enter your Location here"
+msgstr "Enter your Location here"
+
+#: core.php:320
+msgid "Enter the custom value here."
+msgstr "Enter the custom value here."
+
+#: core.php:330
+msgid "Enter your Location here"
+msgstr "Enter your Location here"
+
+#: core.php:332
+msgid "Enter the custom value here."
+msgstr "Enter the custom value here."
+
+#: core.php:342
+msgid "Enter your Location here"
+msgstr "Enter your Location here"
+
+#: core.php:344
+msgid "Enter the custom value here."
+msgstr "Enter the custom value here."
+
+#: core.php:354
+msgid "Enter your Location here"
+msgstr "Enter your Location here"
+
+#: core.php:356
+msgid "Enter the custom value here."
+msgstr "Enter the custom value here."
+
+#: core.php:366
+msgid "Enter your Zip code here"
+msgstr "Enter your Zip code here"
+
+#: core.php:368
+msgid "Enter the custom value here."
+msgstr "Enter the custom value here."
+
+#: core.php:378
+msgid "Enter your Zip code here"
+msgstr "Enter your Zip code here"
+
+#: core.php:380
+msgid "Enter the custom value here."
+msgstr "Enter the custom value here."
+
+#: core.php:424
+msgid "Enter your City here"
+msgstr "Enter your City here"
+
+#: core.php:426
+msgid "Enter the custom value here."
+msgstr "Enter the custom value here."
+
+#: core.php:424
+msgid "Enter your Location here"
+msgstr "Enter your Location here"
+
+#: core.php:436
+msgid "Enter the custom value here."
+msgstr "Enter the custom value here."
+
+#: core.php:444
+msgid "Enter your Location here"
+msgstr "Enter your Location here"
+
+#: core.php:446
+msgid "Enter the custom value here."
+msgstr "Enter the custom value here."
+
+#: core.php:454
+msgid "Enter your Zip code here"
+msgstr "Enter your Zip code here"
+
+#: core.php:456
+msgid "Enter the custom value here."
+msgstr "Enter the custom value here."
+
+#: core.php:751
+msgid "Madrid, Spain"
+msgstr "Madrid, Spain"
+
+#: core.php:780
+msgid "Your browser does not support geolocation. Enter your location in the \"Change Location\""
+msgstr "Your browser does not support geolocation. Enter your location in the \"Change Location\""
+
+#: core.php:811
+msgid "Madrid, Spain"
+msgstr "Madrid, Spain"
+
+#: core.php:961
+msgid "steed"
+msgstr "steed"
+
+#: core.php:965
+msgid "Location: "
+msgstr "Location: "
+
+#: core.php:965
+msgid "Travel time: "
+msgstr "Travel time: "
+
+#: core.php:988
+msgid "GO TO SHOP"
+msgstr "GO TO SHOP"
+
+#: core.php:993
+msgid "Product Image"
+msgstr "Product Image"
+
+#: core.php:995
+msgid "Sell: "
+msgstr "Sell: "
+
+#: core.php:995
+msgid "Seller "
+msgstr "Seller "
+
+#: core.php:998
+msgid "More Detail"
+msgstr "More Details"
+
+#: core.php:998
+msgid "More Info"
+msgstr "More Info"
+
+#: core.php:1113
+msgid "You are here, use the field \"Modify my position\" to correct it on the map"
+msgstr "You are here, use the field \"Modify my position\" to correct it on the map"
+
+#: core.php:1172
+msgid "Distance: "
+msgstr "Distance: "
+
+#: core.php:1172
+msgid "Travel time: "
+msgstr "Travel time: "
+
+#: core.php:1181
+msgid "Search radius: "
+msgstr "Search radius: "
+
+#: core.php:1181
+msgid "Search price: "
+msgstr "Search price: "
+
+#: core.php:1181
+msgid "Browser not support"
+msgstr "Browser not support"
+
+#: core.php:1216
+msgid "Search for:"
+msgstr "Search for:"
+
+#: core.php:1217
+msgid "Search for products"
+msgstr "Search for products"
+
+#: core.php:1228
+msgid "Search for:"
+msgstr "Search for:"
+
+#: core.php:1229
+msgid "Search"
+msgstr "Search"
+
+#: core.php:1247
+msgid "Change my location:"
+msgstr "Change my location:"
+
+#: core.php:1248
+msgid "Your address"
+msgstr "Your address"
+
+#: core.php:1260
+msgid "Search radius:"
+msgstr "Search radius:"
+
+#: core.php:1274
+msgid "Search price:"
+msgstr "Search price:"
+
+#: core.php:1292
+msgid "Use the search bar above to <strong> geolocate the product </ strong> on the map to suit your location. Change Modify Search radius if you do not have results"
+msgstr "Use the search bar above to <strong> geolocate the product </ strong> on the map to suit your location. Change Modify Search radius if you do not have results"
+
+#: core.php:1301
+msgid " Products found within a radius of "
+msgstr " Products found within a radius of "
+
+#: core.php:1305
+msgid "No products available"
+msgstr "No products available"
+
+#: core.php:1330
+msgid "Category (ies): "
+msgstr "Category (ies): "
+
+#: core.php:1334
+msgid " Is available from:"
+msgstr " Is available from:"
+
+#: core.php:1369
+msgid "Click on a marker to display the shop that sells the product"
+msgstr "Click on a marker to display the shop that sells the product"
+
+#: core.php:1373
+msgid "Only products that are at a distance of 10 km maximum will be delivered by courier!"
+msgstr "Only products that are at a distance of 10 km maximum will be delivered by courier!"
+
+#: includes/data.php:14
+msgid "Latitude"
+msgstr "Latitude"
+
+#: includes/data.php:20
+msgid "Longitude "
+msgstr "Longitude "
+
+#: includes/data.php:26
+msgid "Altitude"
+msgstr "Altitude"
+
+#: includes/data.php:32
+msgid "Accuracy"
+msgstr "Accuracy"
+
+#: includes/data.php:38
+msgid "Location Name"
+msgstr "Location Name"
+
+#: include/vendor_listing.php:38
+msgid "Search price:"
+msgstr "Search price:"
+
+#: include/vendor_listing.php:39
+msgid "No shop Found in <b> Radius of "
+msgstr "No shop Found in <b> Radius of "
+
+#: include/vendor_listing.php:39
+msgid "Km !</b> </font><strong>Increase the search radius for more shops"
+msgstr "Km !</b> </font><strong>Increase the search radius for more shops"
+
+#: include/vendor_listing.php:40
+msgid "No product Found in <b> Radius of "
+msgstr "No product Found in <b> Radius of "
+
+#: include/vendor_listing.php:40
+msgid "Km !</b> </font><strong>Increase the search radius for more products"
+msgstr "Km !</b> </font><strong>Increase the search radius for more products"
+
+#: include/vendor_listing.php:74
+msgid "Your address"
+msgstr "Your address"
+
+#: include/vendor_listing.php:79
+msgid "Apply"
+msgstr "Apply"
+
+#: include/vendor_listing.php:93
+msgid "Search distance:"
+msgstr "Search distance:"
+
+#: include/vendor_listing.php:105
+msgid "Search price:"
+msgstr "Search price:"
+
+#: include/vendor_listing.php:109
+msgid "Apply"
+msgstr "Apply"
+
+#: include/vendor_listing.php:143
+msgid "Click a marker to display the route and actual distance to the shop:"
+msgstr "Click a marker to display the route and actual distance to the shop:"
+
+#: include/vendor_listing.php:158
+msgid "Total shop found: "
+msgstr "Total shop found: "
+
+#: include/vendor_listing.php:164
+msgid "Shop within a radius of:"
+msgstr "Shop within a radius of:"
+
+#: include/vendor_listing.php:168
+msgid "Sorry, we have not stores in"
+msgstr "Sorry, we have not stores in"
+
+#: include/vendor_listing.php:200
+msgid "Search radius:"
+msgstr "Search radius:"
+
+#: include/vendor_listing.php:224
+msgid "Your browser does not support geolocation. Enter your location in the \"Change Location\""
+msgstr "Your browser does not support geolocation. Enter your location in the \"Change Location\""
+
+#: include/vendor_listing.php:261
+msgid "Current position!"
+msgstr "Current position!"
+
+#: include/vendor_listing.php:265
+msgid "You are here!"
+msgstr "You are here!"
+
+#: include/vendor_listing.php:277
+msgid "Use the field \"Change position\" to correct your location on the map"
+msgstr "Use the field \"Change position\" to correct your location on the map"
+
+#: include/vendor_listing.php:309
+msgid "SHOP"
+msgstr "SHOP"
+
+#: include/vendor_listing.php:310
+msgid "VIEW SHOP"
+msgstr "VIEW SHOP"
+
+#: include/vendor_listing.php:412
+msgid "Madrid, Spain"
+msgstr "Madrid, Spain"
+
+#: include/vendor_listing.php:461
+msgid "Location: "
+msgstr "Location: "
+
+#: include/vendor_listing.php:461
+msgid "Travel time: "
+msgstr "Travel time: "
+
+#: include/vendor_listing.php:483
+msgid "Search radius:"
+msgstr "Search radius:"
+
+#: include/vendor_listing.php:512
+msgid "Total dokan product found: "
+msgstr "Total dokan product found: "
+
+#: include/vendor_listing.php:519
+msgid "No product found in <b> radius of "
+msgstr "No product found in <b> radius of "
+
+#: include/vendor_listing.php:519
+msgid "Increase the search radius for more products"
+msgstr "Increase the search radius for more products"
+
+#: include/php_vendor_listing.php:152
+msgid "No Image"
+msgstr "No Image"
+
+#: include/php_vendor_listing.php:158
+msgid "Visit The Store"
+msgstr "Visit The Store"
+
+#: include/php_vendor_listing.php:253
+msgid "View Product"
+msgstr "View Product"
+
+#: include/php_vendor_listing.php:263
+msgid "No product found."
+msgstr "No product found."
+
+#: include/php_vendor_listing.php:271
+msgid "No product found."
+msgstr "No product found."
+
+#: include/php_vendor_listing.php:283
+msgid "SHOP"
+msgstr "SHOP"
+
+#: include/php_vendor_listing.php:284
+msgid "VIEW SHOP"
+msgstr "VIEW SHOP"
+

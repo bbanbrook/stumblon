@@ -1,0 +1,2 @@
+<link type="text/css" href="<?php echo woogeoplugin_url;?>datas/assets/css/bootstrap.min.css" rel="stylesheet">
+<link type="text/css" href="<?php echo woogeoplugin_url;?>datas/assets/css/styles.css" rel="stylesheet">

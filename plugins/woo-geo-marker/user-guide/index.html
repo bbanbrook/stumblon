@@ -1,0 +1,322 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>WooGeo Marker Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<link rel="stylesheet" href="assets/blueprint-css/image.css" type="text/css">
+	<link rel="stylesheet" href="assets/js/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />	
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+	<script type='text/javascript' src='assets/js/jquery.js'></script>
+	<script src="assets/js/prettyPhoto/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>	
+	<script type='text/javascript' src='assets/js/custom.js'></script>
+</head>
+
+
+<body>
+	<div class="container">
+		<h3 class="center alt">=<span class="center">WooGeo Marker Wordpress Plugin</span>&rdquo; Documentation by &ldquo;Sharesoft&rdquo; v2.0</h3>
+		<hr/>
+
+		<h1 class="center">WooGeo Marker Wordpress Plugin&rdquo;</h1>
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 22/07/2016<br>
+					By: Sharesoft<br>
+					Email: <a href="mailto:info@sharesoft.in">Sharesoft</a>
+					</strong>				</p>
+				<p class="prepend-top"><span class="small">Informations about Updates and New Feature in Plugin are always announced on <a href="https://twitter.com/sharesofttec">Twitter</a> and <a href="https://www.facebook.com/sharesofttec/">Facebook</a>. Twitter updates are usually more up to date, Facebook updates are more detailed and easier to follow :)</span><br/>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0"><strong>Hello! First of all I would like to thank you for purchasing my Plugin! :) </strong><br></p>
+				<p class="prepend-top append-0">This file will teach you how to set up and use the “WooGeo Marker”  WordPress Plugin. <br>
+					This file is really extensive so you might think the plugin is hard to use, <br>
+					actually its not, you probably just might jump to the options page and explore everything yourself, this file is more of a reference work if you do not know what to do, or if you are not familiar to WordPress.</p>
+				<p class="prepend-top append-0">Have fun with your new plugin! best regards<br>
+				<strong>Sharesoft</strong></p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr/>
+
+		<div class='toc'>
+			<h2 id="toc" class="alt">Table of Contents</h2>
+			<ol class="alpha">
+				<li><a href="#plugin-overview">Overview</a></li>
+				<li><a href="#installation">Installation and setup (to get it like in our demo)</a>
+					<ol>
+						<li><a href="#install-plugin">Install Plugin</a></li>
+						<li><a href="#install-depend-plugins">Install dependency plugins</a></li>
+						<li><a href="#install-plugin-func">How-the-plugin-functions</a></li>
+						<li><a href="#install-shortcode">shortcodes & its functions in plugin</a></li>
+						<li><a href="#install-admin-settings">Plugin Admin settings</a></li>
+						<li><a href="#install-location-product">Add location to a products</a></li>
+						<li><a href="#install-widget">How to Add Woogeo: Goggle map Widget</a></li>
+					</ol>	
+				</li>
+				<!--<li><a href="#trouble-shoot">Troubleshoot</a></li>-->
+			</ol>
+		</div>
+		<hr/>
+		
+		<div class='real_content'>
+			<h2><span id="plugin-overview"><strong>Overview</strong> - <a href="#toc">top</a></span></h2>
+				<p>WooGeo Marker plugin is used to point out the products & vendor availability in particular geolocation , according the user distance provided the product available in particular location will be listed in goggle map. Plugin contains the following Features, as listed below,</p>
+					<ul>
+						<li>Products and vendors available within the user's geolocation can be searched and viewed.</li>
+						<li>Admin can handle both admin setting options for product listing and vendor listing separately in wp-admin.</li>
+						<li>Admin can create custom markers separately for each product categories in admin, So that while user's searching for products can view the particular product with its icon in goggle map, replacing default goggle map marker. which will help user easily to recognize the product category.</li>
+						<li>User's can view the address , product link url in info-view option in goggle map.</li>
+						<li>Product category filter widget is available , which can be enabled/disabled in admin. Admin can flip the goggle map using admin settings option to appear it in main header area or sidebar area along with widget filter options in wordpress.</li>
+					</ul>
+			    <p>Apart from the features. Use the admin option effectively,and also provide product & vendor location info properly to get better results.</p>
+			<p>&nbsp;</p>
+			<hr/>
+			
+			
+			<h2><span id="installation"><strong>2 Installation</strong> - <a href="#toc">top</a></span></h2>
+			<h2><span id="install-plugin"><strong>2.1 Install Plugin - <a href="#toc">top</a></strong></span></h2>
+					<p><br>
+						<strong>How to install through FTP #1</strong><br />
+						<ul>
+						   <li>Initially install Wordpress as per online documentation.</li>
+						   <li>Download the Woogeo Marker plugin.</li>
+						   <li>Then locate folder path /wp-content/plugins.</li>
+						   <li>Place the downloaded plugin in that folder and extract it.</li>
+						</ul>
+					</p>
+					<p>After that you can view the plugin added in the list in admin area,</p>
+					<img src="assets/images/woogeo-marker-images/install-plugin-ftp.png" class="bordergrey_leftttbottom">  
+
+					<strong>How to Install through Admin #2</strong><br /><br />
+					    Login into Your site Wordpress wp-admin. 
+					    <br /><br />
+					    <p>Click <b>Plugins menu</b> in admin sidebar, Select <b>Add new button</b>,</p>
+					    <img src="assets/images/woogeo-marker-images/admin-add-new.png" class="bordergrey_leftttbottom">
+					  
+					    <p>On plugin listing page select <b>upload plugin</b> button at the top of the plugin list page,</p> 
+					    <img src="assets/images/woogeo-marker-images/admin-upload-plugin.png" class="bordergrey_leftttbottom">
+					  
+					    <p>On clicking it opens plugin <b>upload tab</b> where you can add our downloaded plugin zip file,</p> 
+					    <img src="assets/images/woogeo-marker-images/admin-choose-file.png" class="bordergrey_leftttbottom">
+					    <br /><br />
+
+			<h2><span id="install-depend-plugins"><strong>2.2 Install dependency plugins - <a href="#toc">top</a></strong></span></h2>
+
+				<p>After activating plugin, Plugin Admin settings option will appear,</p>
+				<img src="assets/images/woogeo-marker-images/activated-plugin.png" class="bordergrey_leftttbottom">
+
+				<p>To get all the features you see on our demo, make sure you install all the plugins with version compatible, listed below ,</p>
+				   <ul>
+				      <li><b>Wordpress Tested upto (version.4.6.1)</b>.</li>
+				      <li><b>Dokan - Multi-vendor Marketplace (Version 2.3), now tested upto version(2.3)</b>.</li>
+				      <li><b>WooCommerce (Version 2.5.5), now tested upto version(2.6.8)</b>.</li>
+				      <li><b>YITH WooCommerce Multi Vendor (Version 1.9.11), now tested upto version(1.9.16)</b>.</li>
+				   </ul>
+				<img src="assets/images/woogeo-marker-images/install-dependency.png" class="bordergrey_leftttbottom"><br>
+           
+				
+			  
+			<hr/>
+
+			<h2><span id="install-plugin-func"><strong>2.3 How the plugin functions - <a href="#toc">top</a></strong></span></h2>
+				<ul>
+				   <li>After activating the plugin. Every product added through woocommerce must be updated with city, so the products with city location available listed.</li>
+				   <li>Our plugin collects the products & vendor locations, Marks them in Goggle maps with details of it. With range & current user location shared (or) detected in the browser the products & vendor available are displayed according to their geolocation.</li>
+				   <li>So the users can filter & search the products within distance range available.</li>
+                </ul>
+                <p>Image below, explains how the product located with filter option are plotted in goggle map and listed out.</p>				
+				<img src="assets/images/woogeo-marker-images/plugin-works.png" class="bordergrey_leftttbottom"><br>
+			  
+			<hr/>
+
+
+			<h2><span id="install-shortcode"><strong>2.4 shortcodes & its functions in plugin - <a href="#toc">top</a></strong></span></h2>
+				    <p>  
+					  <strong>For product listing with goggle map feature #1</strong><br />
+					</p>
+			        <ul>
+				        <li>
+					      <strong>[make_filter_html map="yes" product_listing="yes" category="yes"]</strong><br><br>
+					       &nbsp;&nbsp;&nbsp;#&nbsp;<strong>make_filter_html</strong> - It calls upon our plugin product & goggle map function into the Wordpress page to apply the functionality. <br><br>
+						   &nbsp;&nbsp;&nbsp;#&nbsp;<strong>map</strong> - It activates the Google maps with the products locations plotted in it.                           &nbsp;&nbsp;<strong>(i.e. [make_filter_html   map=”yes”])</strong>.<br><br>
+						   &nbsp;&nbsp;&nbsp;#&nbsp;<strong>product_listing </strong> - It activates the product list available according to the user’s geolocation.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>(i.e.[ make_filter_html   map=”yes”   product_listing =”yes”])</strong>.<br><br>
+						   &nbsp;&nbsp;&nbsp;#&nbsp;<strong>category </strong> - It activates the product list with category drop-down filter. so user's can search product category wise.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>(i.e.[ make_filter_html   map=”yes”   product_listing =”yes” category="yes"])</strong>.
+					    </li>
+				    </ul>
+					<p>Image below, explains how to add the product list & goggle map shortcode to wordpress page created,</p>
+					<img src="assets/images/woogeo-marker-images/add-product-shortcode.png" class="bordergrey_leftttbottom"><br>
+					<p>Image below, how to shortcode works,</p>
+					<img src="assets/images/woogeo-marker-images/product-shortcode-function.png" class="bordergrey_leftttbottom"><br>
+					<p>  
+					  <strong>For vendor listing with goggle map feature #2</strong><br />
+					</p>
+					    <ul>
+							<li>
+							   <strong>[vendor-stores-map  map="yes"]</strong><br><br>
+								&nbsp;&nbsp;&nbsp;#&nbsp;<strong>vendor-stores-map</strong> - It calls upon our plugin vendor & goggle map function into the Wordpress page to apply the functionality. <br><br>
+								 &nbsp;&nbsp;&nbsp;#&nbsp;<strong>map</strong> - It activates the Google maps with the vendors locations plotted in it.                           &nbsp;&nbsp;<strong>(i.e. [vendor-stores-map  map=”yes”])</strong>.<br><br>
+							</li>
+					    <ul>
+						<p>Image below, explains how to add the product list & goggle map shortcode to wordpress page created,</p>
+					       <img src="assets/images/woogeo-marker-images/add-vendor-shortcode.png" class="bordergrey_leftttbottom"><br>
+					    <p>Image below, how to shortcode works,</p>
+						   <img src="assets/images/woogeo-marker-images/vendor-shortcode-function.png" class="bordergrey_leftttbottom"><br>
+						<p>
+			<hr/>
+
+			<h2><span id="install-admin-settings"><strong>2.5 Plugin Admin settings - <a href="#toc">top</a></strong></span></h2>
+
+			<p> 
+			  Admin likes to provide predefined location for product search can use this menus to manage the default location for the goggle maps and locate the products coming under that geolocation. So that users can view the products within that location radius by varying the range meter under the map.
+			</p>
+			<p>Note: Few browsers does not support the user geolocation (e.g.IE version below 9, chrome below 4.0, Firefox below 3.5)</p>
+
+            <p>Our plugin consist of two woo-geo-marker-settings & vendor admin settings </p>
+			
+			<ul>
+			    <li>
+					<p><strong>woo-geo-marker-settings</strong></p>
+					<p><strong>Menu options:</strong></p>
+					<ul>
+						 <li>Default Product Filter Range </li>
+						 <li>Default Distance Option </li>
+						 <li>Category Page Filter ( Enable / Disable)</li>
+						 <li>Set City</li>
+						 <li>Settings for Map Icon</li>
+					</ul>
+				    <p>
+				    <ul>
+						<li>
+						   <strong>Default Product Filter range:</strong>
+						   Admin can set the default range for the goggle map. So that product within that particular range will be displayed in the map as well as in Product listing.
+						</li><br>
+						
+						<li>
+						   <strong>Default Distance Option:</strong>
+						   Admin can set the distance option as km or miles, So that the product within that distance option will be shown in map and product listing.
+						</li><br>
+						<li>
+						   <strong>Category Page Filter (Enable / Disable)</strong>
+						   Admin can add woo geo goggle map widget to sidebar ,after enabling the widget admin can flip the goggle map between page header area or sidebar , goggle map will be loaded in that area.
+						</li><br>
+						<li>
+						  <strong>Set City:</strong>
+						   Admin can set the default city to be shown in goggle map. Admin can just add the city, so that latitude, longitude, postal code is automatically located in the map. In that case we can see the products located within that city range.
+						   E.g.  If admin set default city as Madrid, Spain. The map will show Madrid Spain map location and products within that location.
+						</li><br>
+						<li>
+						   <strong>Settings for Map Icon:</strong>
+						   Admin can create custom markers separately for each product categories in admin, So that while user's searching for products can view the particular product with its icon in goggle map, replacing default goggle map marker. which will help user easily to recognize the product category. admin can manage the map custom marker here.
+						</li><br>
+				    </ul>
+				  </p>
+			   </li> 
+			</ul>
+			<ul>
+			    <li>
+					<p><strong>vendor-admin-settings</strong></p>
+					<p><strong>Menu options:</strong></p>
+					<ul>
+						 <li>Default Product Filter Range </li>
+						 <li>Default Distance Option </li>
+						 <li>Set City</li>
+						 <li>Show Vendor Address in Map</li>
+						 <li>Show Vendor Email in Map</li>
+						 <li>Show Vendor Contact No in Map</li>
+					</ul>
+				    <p>
+				    <ul>
+						<li>
+						   <strong>Default Product Filter range:</strong>
+						   Admin can set the default range for the goggle map. So that product within that particular range will be displayed in the map as well as in Product listing.
+						</li><br>
+						
+						<li>
+						   <strong>Default Distance Option:</strong>
+						   Admin can set the distance option as km or miles, So that the product within that distance option will be shown in map and product listing.
+						</li><br>
+						<li>
+						  <strong>Set City:</strong>
+						   Admin can set the default city to be shown in goggle map. Admin can just add the city, so that latitude, longitude, postal code is automatically located in the map. In that case we can see the products located within that city range.
+						   E.g.  If admin set default city as Madrid, Spain. The map will show Madrid Spain map location and products within that location.
+						</li><br>
+						<li>
+						  <strong>Show Vendor(Address, Email, Contact):</strong>
+						   Admin can enable these options , so that these option will be loaded in goggle marker info-view window option, so that user can knew about vendor information.
+						</li><br>
+				    </ul>
+				  </p>
+			   </li> 
+			</ul>
+            <p>Image below shows the options in <b>woo-geo-marker admin settings</b>,</p>
+			<img src="assets/images/woogeo-marker-images/woogeo-admin-settings.png" style="width:800px" class="bordergrey_leftttbottom">
+			
+			 <p>Image below shows the options in <b>vendor-admin-settings</b>,</p>
+			<img src="assets/images/woogeo-marker-images/vendor-admin-settings.png" style="width:800px" class="bordergrey_leftttbottom">
+			
+		  
+			<hr/>
+
+			<h2><span id="install-location-product"><strong>2.6 Add location to a product - <a href="#toc">top</a></strong></span></h2>
+
+			<div class="box-notification"><div class="box-notification-content">Add location to products available before proceeding to goggle map. To get better results update products location as mentioned in the image below.</div></div>
+			<p>To add location to a product, Go to <b>admin side menu</b> > <b>product</b> > <b>Add product </b> </p>
+			<p>Location add form field will be available in <b>product Data</b> tab.</p>
+			<p>Image below, shows how to add location to product.</p>
+			<img src="assets/images/woogeo-marker-images/add-location-product.png" style="width:800px" class="bordergrey_leftttbottom"><br>  
+			
+			<hr/>
+
+
+
+			<h2><span id="install-widget"><strong>2.7 How to Add Woogeo: Goggle map Widget- <a href="#toc">top</a></strong></span></h2>
+            <div class="box-notification">
+		       <div class="box-notification-content"> 
+				   Before Proceeding to the Product category Filtration process, Check Whether the Widget is added in sidebar in admin. If Widget is not added the Map and category Filter for widget Will not be loaded in sidebar. <br><br>
+				   <b>Note</b>: If Geolocation is not shared by user, our plugin will automatically get the Default City from Woogeolocation admin settings. According to the location available the Products will be filtered. If Change of Location needed user can directly type in location textbox below the Google Map.<br>
+		        </div>
+		    </div>
+
+            <p>Image below, explains about the "Note" mentioned in,</p>
+			<img src="assets/images/woogeo-marker-images/geolocation-note.png" style="width:800px" class="bordergrey_leftttbottom"><br>  
+			
+			<ul>
+			    <li><strong>Add Woogeo: Goggle map Widget</strong></li><br>
+				<li>Go to <b>admin menu</b> > <b>Appearance</b> > <b>Widgets</b> > <b>Select: Woogeo: Google Map Widget</b>> <b> Drag & Place it in Sidebar Area</b>.</li>
+				<li>
+				   <p>Below image ,shows how add widget,</p><br>
+				   <img src="assets/images/woogeo-marker-images/add-widget.png" style="width:800px" class="bordergrey_leftttbottom"><br>
+				</li>
+				<li>
+				   <p>Below image ,shows the widget output,</p><br>
+				   <img src="assets/images/woogeo-marker-images/widget-works.png" style="width:800px" class="bordergrey_leftttbottom"><br>
+				</li>
+			</ul>
+			<hr/>
+			<!--<h2><span id="trouble-shoot"><strong>3. Troubleshoot- <a href="#toc">top</a></strong></span></h2>
+			<p>This section is about troubleshoot some basic error that occurs.</p>
+			<br>-->
+
+			
+			<p>Once again, thank you so much for purchasing this plugin. As I said at the beginning, I'd be glad to help you if you have any questions relating to this plugin. No guarantees, but I'll do my best to assist. If Any Queries contact Support mail us at: <a href="mailto:info@sharesoft.in">info@sharesoft.in</a></p> 
+					
+					<p class="append-bottom alt large"><strong>Sharesoft</strong></p>
+					<p><a href="#toc">Go To Table of Contents</a></p>
+					
+					<hr class="space">
+				  </p>
+		</div>
+    </div><!-- end div .container -->
+</body>
+</html>
